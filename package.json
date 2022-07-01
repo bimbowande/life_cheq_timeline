@@ -1,5 +1,6 @@
 {
   "name": "life_cheq_timeline",
+  "homepage": "https://bimbowande.github.io/life_cheq_timeline",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +11,7 @@
     "@types/node": "^16.11.42",
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -19,6 +21,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "dev": "PORT=8080 react-scripts start ",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
