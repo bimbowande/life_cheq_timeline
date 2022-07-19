@@ -9,6 +9,6 @@ export interface ITimeline {
 }
 
 
-export type TimeLine = ITimeline[]
+export type TimeLine = ITimeline[];
 
-export default TimeLine
+export default TimeLine;

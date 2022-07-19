@@ -11,7 +11,7 @@ export const Home: React.FC<{}> = () => {
     <Layout>
         <div className='home_container'>
           <div className='timeline_display'>
-            { GoalList && <DoubleRing/> }
+            { GoalList && <DoubleRing text={`You are here`}/> }
             {GoalList.map((goal: ITimeline, index:number) => <div></div>)}
           </div>
         </div>
