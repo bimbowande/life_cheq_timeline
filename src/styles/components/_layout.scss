@@ -1,0 +1,9 @@
+@import '../Abstract/variables';
+@import '../Abstract/mixins';
+
+.layout{
+    &_container{
+        @include full_width_height;
+        background-color: $bg_color;
+    }
+}

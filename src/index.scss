@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*
+  *  Hard reset 
+*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root{ 
+  height: 100%;
+  width: 100%;
+}
+

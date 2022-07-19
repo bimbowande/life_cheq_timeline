@@ -1,7 +1,11 @@
-import React from 'react'
+import React from 'react';
+import '../App.scss';
+import { Layout } from '../components/Layout';
 
 export const Home: React.FC<{}> = () => {
   return (
-    <div>Try index</div>
+    <Layout>
+        <h2>Data</h2>
+    </Layout>
   )
 }
