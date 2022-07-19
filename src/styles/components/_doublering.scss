@@ -1,0 +1,18 @@
+@import '../Abstract/variables';
+
+.doublering_container{
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: $teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doublering_content{
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    background-color: $bg_color;
+}

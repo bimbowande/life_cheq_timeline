@@ -1,9 +1,9 @@
 
-interface Igoals {
+export interface Igoals {
     description: string,
     imageUrl: string
 }
-interface ITimeline {
+export interface ITimeline {
     date: string,
     goals:Igoals[]
 }
