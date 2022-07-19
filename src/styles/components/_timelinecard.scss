@@ -1,0 +1,10 @@
+@import '../Abstract/variables';
+
+.timeline_card{
+    &_inner{
+        background-color:$white_color;
+    }
+    &_text{
+        color: $white_color;
+    }
+}

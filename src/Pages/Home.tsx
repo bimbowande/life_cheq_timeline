@@ -1,11 +1,14 @@
 import React from 'react';
-import '../App.scss';
 import { Layout } from '../components/Layout';
+import '../styles/components/_home.scss';
+import { GoalList } from '../Api/Api';
 
 export const Home: React.FC<{}> = () => {
   return (
     <Layout>
-        <h2>Data</h2>
+        <div className='home_container'>
+           { GoalList && <p>test data</p>}
+        </div>
     </Layout>
   )
 }

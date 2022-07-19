@@ -1,0 +1,10 @@
+@import '../Abstract/variables';
+@import '../Abstract/mixins';
+
+.home_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    @include full_width_height;
+}
