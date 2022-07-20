@@ -1,0 +1,13 @@
+@import  '../Abstract/variables' ;
+@import '../Abstract/mixins';
+
+.timeline_group_line{
+    height: 10px;
+    width: 100px;
+    border-bottom:1px solid $white_color;
+    margin: 3px;
+}
+
+.timeline_group{
+    @include flex;
+}

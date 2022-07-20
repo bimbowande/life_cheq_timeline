@@ -8,7 +8,7 @@ interface ITimelineCards  {
 
 }
 
-export const TimelineCards:React.FC<ITimelineCards> = (ITimeLineCards) => {
+export const TimelineCard:React.FC<ITimelineCards> = (ITimeLineCards) => {
   return (
     <div className='timeline_card'>
         <div className='timeline_card_inner'></div>

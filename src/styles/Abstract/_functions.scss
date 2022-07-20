@@ -1,0 +1,19 @@
+
+
+@for $i from 1 through 10{
+    @if($i <= 2)  {
+        .flex-#{$i}{
+             flex-direction: row;
+        }
+    } 
+     @if($i % 2 == 0){
+         .flex-#{(2*$i) + 1},.flex-#{(2*$i) + 2} {
+             flex-direction: row;
+         }
+     }
+     @else if $i % 2 != 0{
+         .flex-#{(2*$i) + 1},.flex-#{(2*$i) + 2} {
+             flex-direction: row-reverse;
+         }
+     }
+ }

@@ -5,7 +5,8 @@ export interface Igoals {
 }
 export interface ITimeline {
     date: string,
-    goals:Igoals[]
+    goals:Igoals[];
+    index?:number
 }
 
 
